@@ -1,6 +1,6 @@
 #write your code here
 n = 10
-def countdown
+def countdown(n)
   while n > 0
   puts "#{n} SECOND(S)!"
   n -= 1
@@ -8,11 +8,11 @@ def countdown
   puts "HAPPY NEW YEAR"
 end
 
-def countdown_with_sleep
+def countdown_with_sleep(n)
   while n > 0
   puts "#{n} SECOND(S)!"
   n -= 1
-  sleep 1
+  sleep 5
   end
   puts "HAPPY NEW YEAR"
 end 
